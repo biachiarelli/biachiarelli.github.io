@@ -26,5 +26,5 @@ Mensagem: $mensagem";
 
 mail("$Destinatario","$Titulo", "$mensagem1","From:$email");
 
-echo "<script>window.location='contato.html';alert('$nome, sua mensagem foi enviada com sucesso!');</script>";
+echo "<script>window.location='index.html';alert('$nome, sua mensagem foi enviada com sucesso!');</script>";
 ?>
