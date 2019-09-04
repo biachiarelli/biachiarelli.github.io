@@ -730,7 +730,7 @@ overflow: hidden;
 .work-wrap .fh5co-project-inner {
   display: table-cell;
   vertical-align: middle;
-  height: 100vh;
+  height: 70vh;
   width: 100vw;
   content: 'viewport-units-buggyfill; height:100vh; width:100vw';
   position: relative;
@@ -740,7 +740,7 @@ overflow: hidden;
     float: left;
     width: 100%;
     height: inherit !important;
-    padding: 3em 0;
+    padding: 20px 0;
     width: 100vw;
     content: 'viewport-units-buggyfill; width:100vw';
   }
@@ -879,6 +879,10 @@ overflow: hidden;
 @media screen and (max-width: 992px) {
   .project-content .col-forth {
     width: 50%;
+  }
+
+  .work-wrap .fh5co-project-inner {
+    height: 90vh;
   }
 }
 @media screen and (max-width: 480px) {
