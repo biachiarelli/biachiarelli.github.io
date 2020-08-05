@@ -394,6 +394,27 @@ footer .icon:hover {
 
 @media only screen and (max-width: 576px) {
 
+  h1 {
+      font-size: 2.5rem;
+  }
+
+  h6 {
+      font-size: 1.2rem;
+  }
+
+  #home .text {
+      padding: 16vh 0px 0px 5vw;
+  }
+
+  .icones {
+      padding-top: 4vh;
+      padding-bottom: 0;
+  }
+
+  footer .icones {
+      padding-top: 4vh;
+      padding-bottom: 4vh;
+  }
   #navbarCollapse{
     background: #F9F6F4;
   }
@@ -404,13 +425,16 @@ footer .icon:hover {
   }
 
   #home .profile img{
-    display: none;
+    width: 96%;
   }
 
   #home .circle {
-    position: absolute;
-    height: inherit;
-    margin-left: -40vw;
+    margin-left: -56vw;
+    margin-top: -48vh;
+  }
+
+  img.me {
+      margin-top: -2vh;
   }
 
   #about a.nav-link {
