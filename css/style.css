@@ -423,9 +423,9 @@ footer .icon:hover {
     text-align: center;
     margin: 0px 32vw;
   }
-
-  #home .profile img{
-    width: 96%;
+  
+  #home .profile img {
+      padding: 0px calc(4vh + 4vw);
   }
 
   #home .circle {
