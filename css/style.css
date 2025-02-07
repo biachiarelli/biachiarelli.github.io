@@ -43,7 +43,7 @@ h4 { font-size: 2.4rem; font-family: "made-tommy-light";}
 h5 { font-size: 2rem; font-family: made-tommy-medium;}
 h6 { font-size: 1.6rem; }
 
-p { font-size: 14px; font-family: "made-tommy-light"; }
+p, li { font-size: 14px; font-family: "made-tommy-light"; }
 
 
 /*--------- Button ---------*/
@@ -340,6 +340,10 @@ a {
 #about .tab-group .tab-subtitle {
   font-size: 14px;
   color: #B27273;
+}
+#about .tab-group .tab-date {
+  font-size: 14px;
+  color: #8e8e8e;
 }
 
 
